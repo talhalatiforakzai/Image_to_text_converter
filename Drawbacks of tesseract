@@ -1,0 +1,6 @@
+Tesseract requires very clean segmentation of the foreground text from the background
+Tesseract doesn’t perform good on images with background noise
+Tesseract performs poorly on low resolution images
+Characters in the input image cannot appear “pixelated” after segmentation if they do tesseract wont detect them
+Certain fonts are accepted more than others by tesseract
+Font sizes also make a difference with the smaller and larger fonts being less accurate. The more common font sizes (10-14) make the OCR perform at its best.
